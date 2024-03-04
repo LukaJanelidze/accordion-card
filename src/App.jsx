@@ -41,6 +41,8 @@ function App() {
 
           <div className='main-container'>
           < AccordionPics />
+
+            <div className='accordion-main-div'>
             <h1>FAQ</h1>
             {accordionArr.map((item) => {
               return (
@@ -55,6 +57,8 @@ function App() {
               </Fragment>
               );
             })}
+            </div>
+
       </div>
     </div>
   );

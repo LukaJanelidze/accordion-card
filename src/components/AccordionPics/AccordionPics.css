@@ -1,25 +1,21 @@
 .accordion-pic-box {
-    position: absolute;
+    position: relative;
     width: 237px;
     height: 180px;
     align-self: center;
     flex-grow: 0;
-    top: 0;
+    top: -118px;
 }
 
 .illustration {
-    width: 237px;
-    height: 180px;
+    width: 100%;
     position: relative;
 }
 
 .bgpattern {
-    width: 240px;
-    height: 145px;
+    width: 100%;
     position: relative;
     top: -80px;
-    width: 240px;
-    height: 104px;
     object-fit: contain;
     opacity: 0.8;
 }
@@ -28,18 +24,15 @@
     .accordion-pic-box {
         width: 427px;
         height: 427px;
- 
-        left: -100px;
+        top: 70px;
+        right: 88.2px;
     }
 
     .illustration {
-        width: 427px;
-        height: 427px;
+        width: 100%;
     }
 
     .bgpattern {
-        width: 427px;
-        height: 427px;
-        top: -150px;
+        width: 100%;
     }
 }
