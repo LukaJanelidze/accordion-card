@@ -10,7 +10,6 @@
 
 .title-section p {
     width: 235px;
-    font-family: KumbhSans;
     font-size: 13px;
     font-weight: normal;
     font-stretch: normal;
@@ -28,9 +27,7 @@
 
 .sub-text-styles {
     width: 279px;
-    height: 36px;
     margin: 12px 0 0 0;
-    font-family: KumbhSans;
     font-size: 12px;
     font-weight: normal;
     font-stretch: normal;
@@ -56,8 +53,7 @@
     .title-section p {
         width: 253px;
         height: 14px;
-        margin: 0 72px 18px 1px;
-        font-family: KumbhSans;
+        margin: 0 72px 18px 0;
         font-size: 14px;
         font-weight: normal;
         font-stretch: normal;
@@ -66,13 +62,15 @@
         letter-spacing: normal;
         text-align: left;
         color: #4b4c5f;
+        cursor: pointer;
+    }
+
+    .title-section p:hover {
+        color: #f47b56;
     }
 
     .sub-text-styles {
         width: 319px;
-        height: 36px;
-        margin: 11px 31px 16px 87px;
-        font-family: KumbhSans;
         font-size: 12px;
         font-weight: normal;
         font-stretch: normal;
@@ -81,6 +79,8 @@
         letter-spacing: normal;
         text-align: left;
         color: #787887;
+        margin: 0 0 16px 0;
+        cursor: pointer;
     }
 
     .accordion-container hr {

@@ -1,21 +1,19 @@
 .accordion-pic-box {
-    position: relative;
+    position: absolute;
     width: 237px;
     height: 180px;
     align-self: center;
     flex-grow: 0;
-    top: -118px;
+    top: -105px;
 }
 
 .illustration {
     width: 100%;
-    position: relative;
 }
 
 .bgpattern {
     width: 100%;
-    position: relative;
-    top: -80px;
+    margin-top: -80px;
     object-fit: contain;
     opacity: 0.8;
 }
@@ -25,7 +23,7 @@
         width: 427px;
         height: 427px;
         top: 70px;
-        right: 88.2px;
+        left: -88.2px;
     }
 
     .illustration {

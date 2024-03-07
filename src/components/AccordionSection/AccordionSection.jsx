@@ -20,7 +20,7 @@ const AccordionSection = (props) => {
     onClick={() => clickHandler(props.id)}
     >
         <div className="title-section">
-            <p className="title-text-styles">{props.title}</p>
+            <p className="title-text-styles" style={props.chosenSection==props.id ? {fontWeight: "900"} : {}}>{props.title}</p>
             {props.chosenSection === props.id ? (
             <img src={upArrow} alt="upArrow" />
             ) : (

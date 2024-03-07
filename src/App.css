@@ -8,7 +8,6 @@
 }
 
 .body-container {
-  width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -22,13 +21,13 @@
   justify-content: center;
   flex-direction: column;
   width: 327px;
-  height: 535px;
   flex-shrink: 0;
   border-radius: 23px;
   background: #FFF;
   box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.50);
-  padding: 0 24px 0 24px;
+  padding: 132px 24px 48px 24px;
   margin-top: 148px;
+  position: relative;
 }
 
 .accordion-main-div {
@@ -40,7 +39,6 @@
 .accordion-main-div > h1{
   width: 67px;
   height: 32px;
-  font-family: KumbhSans;
   font-size: 32px;
   font-weight: bold;
   font-stretch: normal;
@@ -54,7 +52,12 @@
 
 @media only screen and (min-width: 1024px){
 
+  .accordion-main-div {
+    display: block;
+  }
+
   .main-container {
+    justify-content: flex-end;
     width: 920px;
     height: 509px;
     flex-grow: 0;
@@ -64,8 +67,7 @@
     background-color: #fff;
     flex-direction: row;
     position: relative;
-    margin: 0;
-
+    margin-top: 129px;
   }
 
   .accordion-main-div {
